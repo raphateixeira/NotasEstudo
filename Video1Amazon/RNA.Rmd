@@ -1,0 +1,73 @@
+---
+title: "RNA - O velho e o Novo"
+subtitle: "Fundamentos de Aprendizagem de Máquina"
+institute: "UFPA - NDAE - PPCA"
+author: "Prof. Dr. Raphael Teixeira"
+#date: "20/02/2023"
+output:
+  xaringan::moon_reader:
+    # css: [default, metropolis, metropolis-fonts]
+    css: [default,ufpa-fontes.css, ufpa.css]
+    lib_dir: libs
+    seal: true
+    nature:
+      #titleSlideClass: ["right", "top"]
+      highlightStyle: github
+      highlightLines: true
+      #highlightLanguage: ["r"]
+      countIncrementalSlides: false
+      ratio: "16:10"
+---
+
+# Video Amazon
+
+- Forecasting bir time series: Theory and Practice
+
+- Yuyang Wang
+- Christos Faloustsos
+- Valentin Flunkert
+- Jan Gasthaus
+- Tim Januschowski
+
+---
+
+# Time-line RNA
+
+- 1969 - Previsão de clima com neuronios lineares adaptativos;
+- Backpropagation (Rumelhard ett all) 
+- NN BPG
+- The outcome of all of these studies has been somewhat mixed;
+- M3 compettion simple methods declared the winner;
+- 200x Menos trabalho em rede neural;
+- 2012 AlexNet vence ImageNet competition - Inidia a era deep learning;
+- Generating sequence with RNA (Grover) sec2sec arquitecture(Sutskever);
+- Modern deep RNN CNN;
+- 2018 M4 Competitions
+
+---
+
+# M4 competition forecasting
+
+[M4](https://www.kaggle.com/datasets/yogesh94/m4-forecasting-competition-dataset)
+
+- Mixing Approaxh - RNN combined with some form of exponential smoothing;
+produce the best results;
+- M4 won by neural network (Slawwg Smyl)
+- Existe algo de especial com predição?
+- Escala - Amostragem? Uma mesma TS amostrada com diferentes taxas produzirá diferentes modelos;
+
+---
+# Deep-learning forecasting
+
+- Regressão não-linear, feed-forward (MLP);
+- Basic model structure;
+- Convolutional NN;
+- Recurrent NN;
+- Probabilistic forecasting with neural nets;
+- Deep Probabilistic models;
+
+---
+class: title-slide-final, middle
+
+![](img/logonegufpa.png =250x250)
+

@@ -4,3 +4,6 @@ Notas de temas em estudo.
 
 - [AutoEncoder](AutoEncoder/AutoEncoder.html) .
 
+
+- [RNA](Video1Amazon/RNA.html) .
+
